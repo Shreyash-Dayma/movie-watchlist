@@ -4,6 +4,7 @@ import './MovieList.css';
 
 const API_URL = 'https://movie-watchlist-uabx.onrender.com/api';
 
+
 function MovieList() {
     const [movies, setMovies] = useState([]);
     const [newMovie, setNewMovie] = useState({ title: '', genre: '', year: '' });
