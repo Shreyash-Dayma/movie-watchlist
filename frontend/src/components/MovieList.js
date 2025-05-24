@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './MovieList.css';
 
-const API_URL = 'http://localhost:5001/api';
+const API_URL = 'https://movie-watchlist-uabx.onrender.com';
 
 function MovieList() {
     const [movies, setMovies] = useState([]);
